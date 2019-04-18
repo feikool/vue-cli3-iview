@@ -1,29 +1,22 @@
-# iview-cli
+## iView-cli
 
-## Project setup
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
+项目运行
+ npm install
+ npm run dev
 ```
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+### iView Ui
 
-### Run your tests
-```
-yarn run test
-```
+> [iView UI 文档](https://www.iviewui.com/docs)
 
-### Lints and fixes files
 ```
-yarn run lint
+!Error:Inline JavaScript is not enabled. Is it set in your options?
+fix:
+node_modules/less-loader/dist/index.js
+function lessLoader(source) {
+  ...
+    options.javascriptEnabled = true
+  ...
+}
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

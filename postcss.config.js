@@ -1,5 +1,11 @@
 module.exports = {
-  plugins: {
-    autoprefixer: {}
-  }
+    plugins: {
+        autoprefixer: {
+            add: true,
+            browsers: [
+                'iOS >= 7',
+                'Android >= 4.1'
+            ]
+        }
+    }
 }
